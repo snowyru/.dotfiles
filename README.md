@@ -38,6 +38,10 @@ install nvm (node version manager) `curl -o- https://raw.githubusercontent.com/n
 `xremap`
 `nvim-packer-git`
 
+#### Notes
+running a sudo required app like timeshift requires the -E command so I cannot use wofi like normal
+use `sudo -E timeshift-gtk` to open it or with gparted use `sudo -E gparted`
+
 
 
 
