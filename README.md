@@ -36,6 +36,7 @@ install nvm (node version manager) `curl -o- https://raw.githubusercontent.com/n
 `visual-studio-code-bin`
 `whatsapp-for-linux`
 `xremap`
+`nvim-packer-git`
 
 
 
