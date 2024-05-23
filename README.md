@@ -27,7 +27,7 @@ install nvm (node version manager) `curl -o- https://raw.githubusercontent.com/n
 
 `sudo pacman -S vim nvim neofetch base-devel cmatrix git-lfs`
 `discord firefox libreoffice-still obs-studio timeshift`
-`pipewire pipwire-alsa pipwire-jack pipwire-pulse wireplumber easyeffects qjackctl`
+`pipewire pipewire-alsa pipewire-jack pipewire-pulse wireplumber easyeffects qjackctl`
 
 `yay -S github-desktop-bin`
 `microsoft-edge-stable-bin`
