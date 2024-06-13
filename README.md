@@ -9,16 +9,16 @@ This is my .config files and other setup configuration for my Arch Linux Hyprlan
  	4. Make it executable with `chmod +x archfi` then run it `./archfi`
 2. After arch install 
 	1. Login to root
-	2. Add user to wheel group with `useradd -m -G wheel -s /bin/bash username`
-	3. set password with `passwd username`
-	4. Enable sudo for wheel group with `EDITOR=vim visudo`
+ 	2. Connect to wifi using `nmtui`
+	3. Add user to wheel group with `useradd -m -G wheel -s /bin/bash username`
+	4. set password with `passwd username`
+	5. Enable sudo for wheel group with `EDITOR=vim visudo`
 		1. Then uncomment `%wheel ALL=(ALL:ALL) NOPASSWD: ALL`
-	5. Exit and log into username
+	6. Exit and log into username
 3. Hyprland install
-	1. connect to wifi using `nmtui`
-	2. use `sudo pacman -S hyprland kitty gtk3`
-	3. clone soldoestech hyprlandv4 using `git clone https://github.com/SolDoesTech/HyprV4.git`
-	4. Then run the set-hypr script
+	1. use `sudo pacman -S hyprland kitty gtk3 git base-devel`
+	2. clone soldoestech hyprlandv4 using `git clone https://github.com/SolDoesTech/HyprV4.git`
+	3. Then run the set-hypr script
 ## (2) .config
 1. Clone the config files with `git clone https://github.com/snowyru/.dotfiles.git`
 2. Copy the config files over into the .config directory
