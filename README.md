@@ -28,7 +28,7 @@ This is my .config files and other setup configuration for my Arch Linux Hyprlan
 install nvm (node version manager) replace with latest version `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
 Then install node with `nvm install lts` or the latest version
 
-`sudo pacman -S vim neovim neofetch grep base-devel cmatrix git-lfs`
+`sudo pacman -S vim neovim fastfetch grep base-devel cmatrix git-lfs`
 `discord firefox libreoffice-still obs-studio timeshift`
 `pipewire pipewire-alsa pipewire-jack pipewire-pulse wireplumber easyeffects qjackctl`
 
