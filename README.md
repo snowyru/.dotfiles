@@ -6,6 +6,7 @@ This is my .config files and other setup configuration for my Arch Linux Hyprlan
 	1. Wifi device name `iwctl device list`
  	2. Wifi connection using `iwctl station DEVICE connect SSID`
 	3. On arch live boot use `curl -LO archfi.sf.net/archfi`
+ 	4. Make it executable with `chmod +x archfi` then run it `./archfi`
 2. After arch install 
 	1. Login to root
 	2. Add user to wheel group with `useradd -m -G wheel -s /bin/bash username`
