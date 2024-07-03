@@ -115,9 +115,9 @@ No run an update with  `sudo dnf update`
 
 #### All my packages I use
 
-` sudo dnf install timeshift fastfetch kitty kvantum python3-pip cmatrix `
+` sudo dnf install timeshift fastfetch kitty kvantum python3-pip cmatrix neovim`
 
-` flatpak install flathub com.ktechpit.whatsie com.visualstudio.code`
+` flatpak install flathub com.ktechpit.whatsie com.visualstudio.code md.obsidian.Obsidian com.obsproject.Studio org.shotcut.Shotcut com.microsoft.Edge com.protonvpn.www io.github.shiftey.Desktop `
 
 ### Note:
 
@@ -126,6 +126,13 @@ By default fedora names the hostname 'fedora'. Which can be change using this  `
 Timeshift restore does not restore however it does backup all files which can be acessed using a file manager
 
 I use xremap as a universal keyremapper in wayland. Using the autostart in KDE settings I autostart the konsole using the `xremap.desktop` file provided to be placed in `~/.config/autostart/`. This launches a terminal to prompt for the password to run xremap
+
+For discord the flatpak kept on crashing so I used this method instead
+`sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
+`sudo dnf update`
+`sudo dnf install discord`
+
+To apply slight transparency and no border and title bars to all windows use the window rules settings and select unimportant then apply the rule
 
 
 
