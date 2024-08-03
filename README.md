@@ -132,9 +132,10 @@ For discord the flatpak kept on crashing so I used this method instead
 `sudo dnf update`
 `sudo dnf install discord`
 
+For remote desktop apps to work install the x11 version of kde
+`sudo dnf install plasma-workspace-x11.x86_64`
+or `sudo dnf install plasma-workspace-x11 kwin-x11`
+
 To apply slight transparency and no border and title bars to all windows use the window rules settings and select unimportant then apply the rule
-
-
-
 
 </details>
