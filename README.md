@@ -139,3 +139,12 @@ or `sudo dnf install plasma-workspace-x11 kwin-x11`
 To apply slight transparency and no border and title bars to all windows use the window rules settings and select unimportant then apply the rule
 
 </details>
+
+## My Timeline of Linux Distributions
+
+- **2020**: Ubuntu - Gnome
+- **2021**: Debian - KDE
+- **2022**: Manjaro - KDE
+- **2023**: Arch - KDE / Hyprland
+- **2024**: Fedora - KDE kwin polonium
+
