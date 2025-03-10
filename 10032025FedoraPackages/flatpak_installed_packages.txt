@@ -1,0 +1,20 @@
+Arduino IDE	cc.arduino.arduinoide	1.8.19	stable	flathub	system
+AnyDesk	com.anydesk.Anydesk	6.4.0	stable	flathub	system
+GPU Screen Recorder	com.dec05eba.gpu_screen_recorder	5.1.7	stable	flathub	system
+PDF Tricks	com.github.muriloventuroso.pdftricks	0.4.1	stable	flathub	system
+Microsoft Edge	com.microsoft.Edge	134.0.3124.51-1	stable	flathub	system
+OBS Studio	com.obsproject.Studio	31.0.2	stable	flathub	system
+Proton VPN	com.protonvpn.www	4.9.4	stable	flathub	system
+ZapZap	com.rtosta.zapzap	6.0	stable	flathub	system
+RustDesk	com.rustdesk.RustDesk		master	rustdesk-origin	system
+UltiMaker Cura	com.ultimaker.cura	5.9.1	stable	flathub	system
+Visual Studio Code	com.visualstudio.code	1.97.2	stable	flathub	system
+GitHub Desktop	io.github.shiftey.Desktop	3.4.13-linux1	stable	flathub	system
+Obsidian	md.obsidian.Obsidian	1.8.9	stable	flathub	system
+NetBeans	org.apache.netbeans	25	stable	flathub	system
+LibreOffice	org.libreoffice.LibreOffice	25.2.1.2	stable	flathub	system
+Raspberry Pi Imager	org.raspberrypi.rpi-imager	1.9.0	stable	flathub	system
+Shotcut	org.shotcut.Shotcut	25.01.25	stable	flathub	system
+Telegram	org.telegram.desktop	5.12	stable	flathub	system
+Zotero	org.zotero.Zotero	7.0.11	stable	flathub	system
+osu!	sh.ppy.osu	2025.306.0	stable	flathub	system
