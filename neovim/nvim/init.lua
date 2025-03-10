@@ -25,3 +25,4 @@ require('tabnine').setup({ -- Activation and compatiblity config for tabnine
 });
 
 vim.g.dashboard_default_executive = 'telescope';
+vim.cmd('TabnineDisable');

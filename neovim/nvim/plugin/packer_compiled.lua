@@ -90,7 +90,7 @@ _G.packer_plugins = {
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["dashboard-nvim"] = {
-    config = { "\27LJ\2\n¡\1\0\0\5\0\n\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\b\0005\3\3\0006\4\4\0009\4\5\0049\4\6\4=\4\a\3=\3\t\2B\0\2\1K\0\1\0\vconfig\1\0\1\vconfig\0\vheader\28dashboard_custom_header\6g\bvim\1\0\2\vheader\0\ntheme\nhyper\nsetup\14dashboard\frequire\0" },
+    config = { "\27LJ\2\n•\1\0\0\5\0\n\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\b\0005\3\6\0006\4\3\0009\4\4\0049\4\5\4=\4\a\3=\3\t\2B\0\2\1K\0\1\0\vconfig\1\0\1\vconfig\0\vheader\1\0\1\vheader\0\28dashboard_custom_header\6g\bvim\nsetup\14dashboard\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,

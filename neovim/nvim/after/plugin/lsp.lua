@@ -12,6 +12,7 @@ lsp.ensure_installed({
   'html',           -- for HTML
   'ast_grep', -- for a bunch of known languages i guess
   -- currently not working? 'harper_ls', -- for parsing comments of most laungages and markdown files
+  'jdtls', -- for Java  
 })
 
 -- Fix Undefined global 'vim'
