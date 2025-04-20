@@ -142,9 +142,18 @@ To apply slight transparency and no border and title bars to all windows use the
 
 ## My Timeline of Linux Distributions
 
-- **2020**: Ubuntu - Gnome
-- **2021**: Debian - KDE
-- **2022**: Manjaro - KDE
-- **2023**: Arch - KDE / Hyprland
-- **2024**: Fedora - KDE kwin polonium
+- **2020**:
+   - Ubuntu - Gnome
+- **2021**:
+   - Debian - KDE
+- **2022**:
+   - Manjaro - KDE
+- **2023**:
+   - Arch - KDE
+   - Arch - Hyprland
+- **2024**:
+   - Fedora - KDE kwin polonium
+- **2025**:
+   - Fedora - Hyprland
+   - Arch - Hyprland 
 
