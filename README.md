@@ -21,7 +21,7 @@ Breif instruction on how I install Arch linux with Hyprland using archfi and Sol
    3. Add user to wheel group with `useradd -m -G wheel -s /bin/bash username`
    4. set password with `passwd username`
    5. Enable sudo for wheel group with `EDITOR=vim visudo`
-      1. Then uncomment `%wheel ALL=(ALL:ALL) NOPASSWD: ALL`
+      1. Then uncomment `%wheel ALL=(ALL:ALL): ALL`
    6. Exit and log into username
 3. Hyprland install
    1. use `sudo pacman -S hyprland kitty gtk3 git base-devel`
