@@ -1,0 +1,70 @@
+// __        __          _                 
+// \ \      / /_ _ _   _| |__   __ _ _ __  
+//  \ \ /\ / / _` | | | | '_ \ / _` | '__| 
+//   \ V  V / (_| | |_| | |_) | (_| | |    
+//    \_/\_/ \__,_|\__, |_.__/ \__,_|_|    
+//                 |___/                   
+//  
+// by Stephan Raabe (2023) 
+// ----------------------------------------------------- 
+//
+{
+    // General Settings
+    "layer": "top",
+    "margin-top": 14,
+    "margin-bottom": 0,
+    "margin-left": 14,
+    "margin-right": 14,    
+    "spacing": 0,
+
+    // Load Modules
+    "include": [
+        "~/.config/ml4w/settings/waybar-quicklinks.json",
+        "~/.config/waybar/modules.json"
+    ],
+
+    // Modules Left
+    "modules-left": [
+        //"custom/appmenu",
+        "hyprland/workspaces",
+        "custom/polycat", // This is the identifier for your custom module
+        "group/links",
+//"wlr/taskbar",
+        //"group/quicklinks",
+        "custom/empty"
+    ],
+
+    // Modules Center
+    "modules-center": [
+"hyprland/window",
+        "custom/empty"
+    ],
+
+    // Modules Right    
+    "modules-right": [
+        "custom/updates",
+        "pulseaudio",
+//"backlight",
+        "bluetooth",
+"network",
+        "battery", 
+        "power-profiles-daemon",
+        "group/hardware",
+        "group/tools",
+"tray",
+        "custom/notification",
+        "custom/exit",
+        "custom/ml4w-welcome",
+        "clock"
+    ],
+
+    // Custom module definition for polycat
+    "custom/polycat": {
+        "exec": "polycat", // Command to execute polycat. Adjust path if not in PATH.
+        "return-type": "json", // polycat can output JSON, which is recommended
+        "interval": 1000 // Update interval in milliseconds (e.g., every 1 second)
+        // You can add other custom module options here like "format", "format-icons", etc.
+        // Refer to Waybar's custom module documentation for more options:
+        // https://man.archlinux.org/man/extra/waybar/waybar-custom.5.en
+    }
+}
