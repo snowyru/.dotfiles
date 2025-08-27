@@ -121,7 +121,7 @@ mullvad relay set tunnel openvpn --transport-protocol tcp
 Use **TCP on port 443** (commonly used for HTTPS traffic and useful for obfuscation):
 
 ```sh
-mullvad relay set tunnel openvpn --port 443
+mullvad relay set tunnel openvpn --transport-protocol tcp --port 443
 ```
 
 ---
@@ -138,10 +138,10 @@ mullvad bridge set state on
 
 ## 5. Set the Connection Location
 
-Specify the location you want to connect to (e.g., London, UK: `uk lon`):
+Specify the location you want to connect to ( Check with mullvad relay list | grep lon ):
 
 ```sh
-mullvad relay set location uk lon
+mullvad relay set location gb-lon-ovpn-002
 ```
 
 ---
