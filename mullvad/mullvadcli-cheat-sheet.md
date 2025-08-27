@@ -90,3 +90,76 @@ This document is a comprehensive guide to the Mullvad command-line interface (CL
 | `mullvad tunnel set wireguard --daita off`             | Disables DIATA.                          | `mullvad tunnel set wireguard --daita off` |
 
 ---
+# How to Connect Mullvad with OpenVPN, TCP 443, and Bridge Mode
+
+Follow these steps to configure Mullvad VPN to use OpenVPN (TCP, port 443) with bridge mode for maximum compatibility and obfuscation:
+
+---
+
+## 1. Set the Tunnel Protocol
+
+Tell Mullvad to use **OpenVPN** instead of the default WireGuard protocol:
+
+```sh
+mullvad relay set tunnel-protocol openvpn
+```
+
+---
+
+## 2. Set the Transport Protocol to TCP
+
+Specify that OpenVPN should use the **TCP** protocol. Useful for bypassing firewalls:
+
+```sh
+mullvad relay set tunnel openvpn --transport-protocol tcp
+```
+
+---
+
+## 3. Set the Port
+
+Use **TCP on port 443** (commonly used for HTTPS traffic and useful for obfuscation):
+
+```sh
+mullvad relay set tunnel openvpn --port 443
+```
+
+---
+
+## 4. Enable Bridge Mode
+
+Enable **bridge mode** (Shadowsocks), which helps with obfuscation in restrictive networks:
+
+```sh
+mullvad bridge set state on
+```
+
+---
+
+## 5. Set the Connection Location
+
+Specify the location you want to connect to (e.g., London, UK: `uk lon`):
+
+```sh
+mullvad relay set location uk lon
+```
+
+---
+
+## 6. Connect to the VPN
+
+Initiate the connection with your configured settings:
+
+```sh
+mullvad connect
+```
+
+---
+
+## 7. Verify Connection
+
+Check your connection status and settings at any time:
+
+```sh
+mullvad status -v
+```
