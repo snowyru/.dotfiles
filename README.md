@@ -155,5 +155,5 @@ To apply slight transparency and no border and title bars to all windows use the
    - Fedora - KDE kwin polonium
 - **2025**:
    - Fedora - Hyprland
-   - Arch - Hyprland 
-
+   - Arch - Hyprland
+   - Debian - KDE
