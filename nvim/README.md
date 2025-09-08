@@ -1,83 +1,115 @@
 # 💤 LazyVim
 
-- Using stock* lazy like a true lazy user
+- Using stock LazyVim like a true lazy user
 - (but with a custom dashboard and copilot enabled 😎)
 
 ---
 
 ## Must-Know LazyVim Keymaps
 
-Keybinds I frequent but all of the keybinds can be seen here [LazyVim Keymaps Docs](https://www.lazyvim.org/keymaps).
+These are the most frequent keybinds, but all keymaps can be seen here: [LazyVim Keymaps Docs](https://www.lazyvim.org/keymaps).
 
 ---
 
 ### 1. Buffer / Tab Navigation
 
 - **Next buffer:**  
-  `]b`
+  `]b`, `<S-l>`
 
 - **Previous buffer:**  
-  `[b`
+  `[b`, `<S-h>`
+
+- **Switch to other buffer:**  
+  `<leader>bb`, `<leader>\``
 
 - **Close current buffer:**  
   `<leader>bd`
+
+- **Delete other buffers:**  
+  `<leader>bo`
 
 - **Pick buffer to close:**  
   `<leader>bD`
 
 - **Switch to last buffer:**  
-  `<leader><tab>`
+  `<leader><tab>l`
 
 - **List open buffers:**  
-  `<leader>bb`
+  `<leader>,`, `<leader>fb`
 
 ---
 
 ### 2. Window (Split) Navigation
 
-- **Move to left window:**  
+- **Go to left window:**  
   `<C-h>`
 
-- **Move to right window:**  
+- **Go to right window:**  
   `<C-l>`
 
-- **Move to below window:**  
+- **Go to lower window:**  
   `<C-j>`
 
-- **Move to above window:**  
+- **Go to upper window:**  
   `<C-k>`
 
-- **Split window vertically:**  
-  `<leader>wv`
+- **Increase window height:**  
+  `<C-Up>`
 
-- **Split window horizontally:**  
-  `<leader>wh`
+- **Decrease window height:**  
+  `<C-Down>`
+
+- **Increase window width:**  
+  `<C-Right>`
+
+- **Decrease window width:**  
+  `<C-Left>`
+
+- **Split window below:**  
+  `<leader>-`
+
+- **Split window right:**  
+  `<leader>|`
 
 - **Close current window (split):**  
-  `<leader>wc`
+  `<leader>wd`
 
 ---
 
 ### 3. File Explorer
 
-- **Toggle Explorer (Neotree):**  
-  `<leader>fe`
+- **Toggle Explorer (Snacks):**  
+  `<leader>fe` (root dir), `<leader>fE` (cwd)
+- **Toggle Snacks Explorer:**  
+  `<leader>e` (root dir), `<leader>E` (cwd)
 
 ---
 
-### 4. Fuzzy Finding (Telescope)
+### 4. Fuzzy Finding (Telescope/FZF/Snacks)
 
-- **Find files:**  
-  `<leader>ff`
+- **Find files (root dir):**  
+  `<leader>ff`, `<leader><space>`
+
+- **Find files (cwd):**  
+  `<leader>fF`
+
+- **Find files (git-files):**  
+  `<leader>fg`
 
 - **Find recent files:**  
   `<leader>fr`
 
-- **Search in files (live grep):**  
-  `<leader>fg`
+- **Find recent files (cwd):**  
+  `<leader>fR`
 
-- **Find in current buffer:**  
-  `<leader>/`
+- **Grep (live search in files, root dir):**  
+  `<leader>/`, `<leader>sg`
+
+- **Grep (cwd):**  
+  `<leader>sG`
+
+- **Buffers:**  
+  `<leader>,`, `<leader>fb`, `<leader>fB`
 
 ---
 
@@ -86,27 +118,33 @@ Keybinds I frequent but all of the keybinds can be seen here [LazyVim Keymaps Do
 - **Open LazyVim menu:**  
   `<leader>L`
 
-- **Open command palette:**  
-  `<leader>fc`
+- **Open command palette/history:**  
+  `<leader>fc`, `<leader>:`
 
 - **Format file:**  
-  `<leader>fF`
+  `<leader>cf`
 
 - **Open diagnostics (trouble):**  
   `<leader>xx`
 
-- **Show keymaps cheatsheet:**  
+- **Show keymaps cheatsheet (which-key):**  
   `<leader>?`
+
+- **Toggle auto format (global):**  
+  `<leader>uf`
+
+- **Toggle auto format (buffer):**  
+  `<leader>uF`
 
 ---
 
 ### Notes
 
 - `<leader>` is usually mapped to `Space` by default in LazyVim.
+- `<localleader>` is usually mapped to `\`.
 - `<C-h>` means Ctrl+h, etc.
-  
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-For more keymaps and customization, refer to [LazyVim Keymaps Docs](https://www.lazyvim.org/keymaps).
+- Many more keymaps are available for LSP, Git, debugging, plugins, and advanced workflow!  
+  For the full list, always refer to: [LazyVim Keymaps Docs](https://www.lazyvim.org/keymaps)
 
 ---
 
